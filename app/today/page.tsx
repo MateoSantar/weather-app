@@ -40,7 +40,7 @@ export default function Today({
     return (
         <div>
             <div
-                className="rounded-xl py-20 px-7 w-full flex flex-row justify-between items-center"
+                className="rounded-xl py-20 px-7 w-full flex flex-col md:flex-row justify-between items-center"
                 style={{
                     backgroundImage: `url(${backgroundImage.src})`,
                     backgroundPosition: "center",
@@ -65,7 +65,7 @@ export default function Today({
                     </h1>
                 </div>
             </div>
-            <div className="grid grid-cols-4 gap-4 mt-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
                 <div className="card-bg secondary-text rounded-xl p-4 pt-2 flex flex-col items-center">
                     <p className={`${dm_sans.className} w-full text-left text-sm`}>Feels Like</p>
                     <h2 className={`${bricolage_Grotesque.className} text-2xl pt-3 w-full text-left`}>
