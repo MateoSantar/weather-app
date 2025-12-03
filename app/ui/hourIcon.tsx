@@ -10,15 +10,15 @@ import sunnyIcon from "@/public/images/icon-sunny.webp";
 import snowIcon from "@/public/images/icon-snow.webp";
 
 const weatherIcons = {
-    'drizzle': drizzleIcon.src,
-    'fog': fogIcon.src,
-    'overcast': overcastIcon.src,
-    'clouds': partlyCloudyIcon.src,
-    'rain': rainIcon.src,
-    'thunderstorm': stormIcon.src,
-    'sunny': sunnyIcon.src,
-    'clear': sunnyIcon.src,
-    'snow':snowIcon.src
+    'Drizzle': drizzleIcon.src,
+    'Fog': fogIcon.src,
+    'Overcast': overcastIcon.src,
+    'Clouds': partlyCloudyIcon.src,
+    'Rain': rainIcon.src,
+    'Thunderstorm': stormIcon.src,
+    'Sunny': sunnyIcon.src,
+    'Clear': sunnyIcon.src,
+    'Snow':snowIcon.src
 } as const;
 
 type WeatherKey = keyof typeof weatherIcons;
