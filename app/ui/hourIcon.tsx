@@ -27,7 +27,7 @@ export default function HourIcon({ weather,large }: { weather: string,large:bool
     if (large) {
         return(
         <Image
-            src={weatherIcons[weather.toLowerCase() as WeatherKey]}
+            src={weatherIcons[weather as WeatherKey]}
             alt=""
             width={120}
             height={0}
@@ -36,7 +36,7 @@ export default function HourIcon({ weather,large }: { weather: string,large:bool
     }else{
         return(
             <Image
-                src={weatherIcons[weather.toLowerCase() as WeatherKey]}
+                src={weatherIcons[weather as WeatherKey]}
                 alt=""
                 width={40}
                 height={0}
