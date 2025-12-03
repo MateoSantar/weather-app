@@ -19,14 +19,14 @@ export default function HourlyForecast() {
                     </div>
                 </div>
                 <div className="flex flex-col gap-4 rounded-lg">
-                    <HourlyForecastCard icon="overcast" hour="3 PM" temp={20} />
-                    <HourlyForecastCard icon="clouds" hour="4 PM" temp={20} />
-                    <HourlyForecastCard icon="sunny" hour="3 PM" temp={20} />
-                    <HourlyForecastCard icon="overcast" hour="3 PM" temp={19} />
-                    <HourlyForecastCard icon="snow" hour="3 PM" temp={18} />
-                    <HourlyForecastCard icon="fog" hour="3 PM" temp={18} />
-                    <HourlyForecastCard icon="snow" hour="3 PM" temp={17} />
-                    <HourlyForecastCard icon="overcast" hour="3 PM" temp={17} />
+                    <HourlyForecastCard icon="Overcast" hour="3 PM" temp={20} />
+                    <HourlyForecastCard icon="Clouds" hour="4 PM" temp={20} />
+                    <HourlyForecastCard icon="Sunny" hour="3 PM" temp={20} />
+                    <HourlyForecastCard icon="Overcast" hour="3 PM" temp={19} />
+                    <HourlyForecastCard icon="Snow" hour="3 PM" temp={18} />
+                    <HourlyForecastCard icon="Fog" hour="3 PM" temp={18} />
+                    <HourlyForecastCard icon="Snow" hour="3 PM" temp={17} />
+                    <HourlyForecastCard icon="Overcast" hour="3 PM" temp={17} />
                 </div>
             </div>
         </div>
